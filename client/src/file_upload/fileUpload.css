@@ -1,0 +1,8 @@
+button {
+	box-shadow: none !important;
+}
+
+button:disabled {
+	cursor: not-allowed;
+	pointer-events: all !important;
+}
