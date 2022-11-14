@@ -31,7 +31,7 @@ export default (req, res) => {
   //
   transporter.sendMail(mailOptions, (err, info) => {
     if (err) {
-      return ylerr.message);
+      return err.message;
     }
 
     yl.log(f_str(`message sent: ${info.response}`));

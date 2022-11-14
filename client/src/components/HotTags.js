@@ -68,7 +68,7 @@ function makeRelatedTagsSet(checkedTagsArr, allPostsArr, selectedPostsArr) {
 // todo
 export default function HotTags({ allPosts, setAllPosts }) {
   const [state, setState] = useState({ selected: [] });
-  const [isOpen, setIsOpen] = useState(false); // slaqy ` >
+  const [isOpen, setIsOpen] = useState(true); // slaqy ` >
 
   const selectedPostsArr = []; // կախված է selected տեգերից փոփոխվում ա։
 
