@@ -28,6 +28,9 @@
     "nodemailer": "^6.7.5",
     "tracer": "^1.1.5"
   },
+  "engines": {
+  "node": ">=18.18.0 <19.0.0"
+  }
   "type": "module",
   "devDependencies": {
     "dotenv": "^16.0.1"
